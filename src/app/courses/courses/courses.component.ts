@@ -13,8 +13,7 @@ export class CoursesComponent implements OnInit {
 
   courses: Observable<Course[]>;
   displayedColumns = ['name','category'];
-
-  //coursesService : CoursesService;
+   //coursesService : CoursesService;
 
   constructor( private  coursesService : CoursesService ) {
     // this.coursesService = new CoursesService();
