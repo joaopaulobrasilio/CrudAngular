@@ -17,7 +17,7 @@ export class CoursesComponent implements OnInit {
 
   constructor( private  coursesService : CoursesService ) {
     // this.coursesService = new CoursesService();
-   this.courses = this.coursesService.list();
+  this.courses = this.coursesService.list()
   }
 
 
