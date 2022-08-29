@@ -5,17 +5,21 @@ import { CommonModule } from '@angular/common';
 
 import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
+import { CourseFormComponent } from './course-form/course-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    CoursesComponent
+    CoursesComponent,
+    CourseFormComponent
   ],
   imports: [
     CommonModule,
     CoursesRoutingModule,
     AppMaterialModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
   ]
 })
 export class CoursesModule { }

@@ -1,4 +1,4 @@
-const PROXY_CONFING = [
+const PROXY_CONFIG = [
   {
     context: ['/api'],
     target: 'http://localhost:8080/',
@@ -7,4 +7,4 @@ const PROXY_CONFING = [
   }
 ];
 
-module.exports = PROXY_CONFING;
+module.exports = PROXY_CONFIG;
